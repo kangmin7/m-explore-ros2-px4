@@ -23,7 +23,7 @@ Custom [m-explore-ros2](https://github.com/robo-friends/m-explore-ros2) for PX4 
 
 ### 1. PX4 SITL
 
-Repo: https://github.com/kangmin7/PX4-Autopilot
+Repo: https://github.com/kangmin7/PX4-Autopilot-KangminLee
 
 ```bash
 cd ~/PX4-Autopilot
@@ -88,7 +88,7 @@ ros2 service call /mavros/set_mode mavros_msgs/srv/SetMode "{custom_mode: 'OFFBO
 
 ## Docker
 
-A pre-built image with ROS 2 Humble, PX4, MAVROS, SLAM Toolbox, Nav2, and explore_lite is available on Docker Hub.
+A pre-built image with ROS 2 Humble, PX4, MAVROS, SLAM Toolbox, Nav2, and explore_lite is available on [Docker Hub](https://hub.docker.com/r/kangmin7/px4-ros2-humble).
 
 ```bash
 docker pull kangmin7/px4-ros2-humble:latest
